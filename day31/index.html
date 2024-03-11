@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        @media only screen and (max-width:500px) {
+            body{
+                background-color: rgb(30, 0, 255);
+            }
+            .boxes{
+                    flex-direction: column;
+            }
+        }
+        @media screen {
+            
+        }
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width: 334px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 4px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>hi a am is bharat </h1>
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
